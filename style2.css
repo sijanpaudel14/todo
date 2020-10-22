@@ -1,0 +1,296 @@
+             body {
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+             }
+             
+             a {
+                 text-decoration: none;
+             }
+             
+             #section {
+                 background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(IMG/bg.jpg);
+                 background-size: cover;
+                 background-position: center;
+                 background-attachment: fixed;
+                 width: 100%;
+                 height: 100vh;
+             }
+             
+             .navbar {
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 padding: 10px 50px;
+                 flex-wrap: wrap;
+                 font-family: Calibri;
+                 letter-spacing: 2px;
+                 font-weight: 600;
+                 position: fixed;
+                 top: 0;
+                 left: 0;
+                 width: 100%;
+                 background-color: #f4f7ff;
+                 box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+                 z-index: 1;
+             }
+             
+             .logo {
+                 font-size: 25px;
+                 font-weight: bold;
+                 color: #292929;
+                 font-family: "Poppins";
+                 margin-left: 40px;
+                 margin-top: 5px;
+             }
+             
+             .logo a:hover {
+                 text-decoration: none;
+                 color: #292929;
+             }
+             
+             .logo-text {
+                 color: #292929;
+                 letter-spacing: 1px;
+             }
+             
+             .button {
+                 margin-right: 20px;
+             }
+             
+             .butn {
+                 background-color: black;
+                 color: white;
+                 margin: 0 5px;
+                 border-radius: 7px;
+                 padding: 4px 14px;
+                 border: none;
+                 outline: none;
+             }
+             
+             .butn:hover {
+                 background-color: rgb(128, 109, 109);
+                 color: white;
+                 transition: .3s;
+             }
+             
+             .message {
+                 font-family: Poppins;
+                 font-size: 40px;
+                 letter-spacing: 3px;
+                 color: #f4f7ff;
+                 margin-left: 100px;
+                 margin-top: 50px;
+                 font-weight: 500;
+             }
+             
+             .get {
+                 color: #17d1ac;
+             }
+             
+             .ready {
+                 color: pink;
+             }
+             
+             .message p {
+                 font-size: 25px;
+                 letter-spacing: 1px;
+                 margin-left: 0px;
+                 margin-top: 30px;
+                 font-weight: 500;
+             }
+             
+             .img-clock {
+                 position: absolute;
+                 top: 100px;
+                 left: 600px;
+                 border-radius: 90%;
+             }
+             
+             .image {
+                 width: 150px;
+                 height: 150px;
+             }
+             
+             .body {
+                 position: relative;
+             }
+             
+             .view {
+                 padding: 10px;
+                 margin-left: 100px;
+                 margin-top: 50px;
+                 width: 20%;
+                 border: none;
+                 outline: none;
+                 background-color: aquamarine;
+                 border-radius: 4px;
+                 font-family: Poppins;
+                 font-size: 20px;
+             }
+             
+             .view:hover {
+                 background-color: aqua;
+                 transition: .3s;
+             }
+             
+             .form-input {
+                 width: 100%;
+                 margin: auto;
+                 margin-top: 50px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+             }
+             
+             .btn-signup {
+                 width: 100%;
+                 padding: 15px;
+                 margin: 5px 0 22px 0;
+                 display: inline-block;
+                 border: none;
+                 background: #f1f1f1;
+             }
+             
+             .btn-signup:focus {
+                 background-color: #ddd;
+                 outline: none;
+             }
+             
+             hr {
+                 border: 1px solid #f1f1f1;
+                 margin-bottom: 25px;
+             }
+             
+             .signupbtn,
+             .cancelbtn {
+                 background-color: #4CAF50;
+                 color: white;
+                 padding: 14px 20px;
+                 margin: 8px 20px;
+                 border: none;
+                 cursor: pointer;
+                 width: 40%;
+                 opacity: 0.9;
+                 padding: 14px 20px;
+             }
+             
+             .cancelbtn {
+                 padding: 14px 20px;
+                 background-color: #f44336;
+             }
+             
+             button:hover {
+                 opacity: 1;
+             }
+             
+             .container .time {
+                 text-align: center;
+             }
+             
+             .container {
+                 padding: 16px;
+                 margin-top: 10px;
+             }
+             
+             .clearfix::after {
+                 content: "";
+                 clear: both;
+                 display: table;
+             }
+             
+             .close {
+                 outline: none;
+                 border: 1px solid white;
+             }
+             
+             @media screen and (max-width: 1077px) {
+                 .view {
+                     margin-left: 100px;
+                     margin-top: 40px;
+                     width: 30%;
+                 }
+             }
+             
+             @media screen and (max-width: 768px) {
+                 .img-clock {
+                     position: absolute;
+                     top: 100px;
+                     left: 410px;
+                 }
+                 .image {
+                     width: 120px;
+                     height: 120px;
+                 }
+                 .message {
+                     font-size: 30px;
+                     letter-spacing: 2px;
+                     margin-left: 40px;
+                     margin-top: 50px;
+                     font-weight: 400;
+                 }
+                 .message p {
+                     font-size: 20px;
+                     letter-spacing: 1px;
+                     font-weight: 500;
+                 }
+                 .view {
+                     margin-left: 40px;
+                     margin-top: 40px;
+                     width: 40%;
+                 }
+             }
+             
+             @media screen and (max-width: 537px) {
+                 .message {
+                     font-size: 20px;
+                 }
+                 .message p {
+                     font-size: 15px;
+                 }
+                 .img-clock {
+                     top: 90px;
+                     left: 330px;
+                 }
+                 .view {
+                     width: 60%;
+                 }
+                 .image {
+                     width: 100px;
+                     height: 100px;
+                 }
+             }
+             
+             @media screen and (max-width: 445px) {
+                 .img-clock {
+                     position: absolute;
+                     top: 90px;
+                     left: 120px;
+                 }
+                 .image {
+                     width: 100px;
+                     height: 100px;
+                 }
+                 .view {
+                     width: 80%;
+                 }
+                 .message {
+                     font-size: 30px;
+                     letter-spacing: 2px;
+                     margin-left: 40px;
+                     margin-top: 160px;
+                     font-weight: 400;
+                 }
+                 .logo {
+                     margin-left: 20px;
+                     margin-top: 5px;
+                 }
+                 .button {
+                     margin-right: 10px;
+                 }
+             }
+             
+             @media screen and (max-width: 300px) {
+                 .cancelbtn,
+                 .signupbtn {
+                     width: 100%;
+                 }
+             }
